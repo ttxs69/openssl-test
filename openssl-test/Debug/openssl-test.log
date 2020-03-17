@@ -1,0 +1,10 @@
+﻿openssl-test.obj : error LNK2019: 无法解析的外部符号 _OPENSSL_init_crypto，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _OPENSSL_config，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_MD_CTX_new，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_MD_CTX_free，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_DigestInit_ex，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_DigestUpdate，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_DigestFinal_ex，该符号在函数 _main 中被引用
+openssl-test.obj : error LNK2019: 无法解析的外部符号 _EVP_get_digestbyname，该符号在函数 _main 中被引用
+C:\Program Files\OpenSSL\lib\libcrypto.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\85735\source\repos\openssl-test\Debug\openssl-test.exe : fatal error LNK1120: 8 个无法解析的外部命令
